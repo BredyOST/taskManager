@@ -10,14 +10,17 @@ Frontend: React, TypeScript, Vite, styled-components
 Утилиты: Axios для API запросов
 
 Установка
+
 Клонируйте репозиторий:
 
 git clone https://github.com/ваш-репозиторий/todo-list.git
-Перейдите в директорию проекта:
 
-cd todo-list
+Перейдите в директорию проекта.
+
 Установите зависимости:
+
 npm i
 
 Запускаем проект
+
 npm run "npm i && npm run start"
