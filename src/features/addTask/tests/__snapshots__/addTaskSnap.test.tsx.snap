@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addTasks match snapShoot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-egkSDF fBEUlG"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary sc-dntaoT bKQbZP css-1emzoey-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+      id=":r0:"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiLoadingButton-label css-27yv9x-MuiLoadingButton-label"
+      >
+        <svg
+          class="sc-fAUdSK jazaIM"
+        />
+      </span>
+    </button>
+    <div
+      class="sc-gtLWhw gwxGCf"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root sc-blHHSb iQEfZM css-1xp5r68-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl css-5h82ro-MuiInputBase-root-MuiInput-root"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiInput-input css-1yrc8ca-MuiInputBase-input-MuiInput-input"
+            id=":r1:"
+            placeholder="ENTER TASK"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

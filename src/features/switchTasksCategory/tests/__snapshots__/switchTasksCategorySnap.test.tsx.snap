@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchTasksCategory matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiToggleButtonGroup-root MuiToggleButtonGroup-horizontal sc-blHHSb ckxUuc css-1qb8o-MuiToggleButtonGroup-root"
+    role="group"
+  >
+    <div
+      class="sc-gtLWhw cNtLyJ"
+    >
+      <div
+        class="sc-egkSDF"
+      >
+        0
+      </div>
+      <div
+        class="sc-egkSDF"
+      >
+        items
+      </div>
+    </div>
+    <div>
+      MyTab
+    </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary sc-ivxoEo cfnPgc css-1emzoey-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+      id=":r0:"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiLoadingButton-label css-27yv9x-MuiLoadingButton-label"
+      >
+        clear completed
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;

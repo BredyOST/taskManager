@@ -1,0 +1,17 @@
+{
+    "files": [],
+    "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+    "compilerOptions": {
+        "target": "es6",  // или более высокая версия, если необходимо
+        "module": "commonjs",  // Jest работает с commonjs
+        "esModuleInterop": true,  // Для импорта модулей с синтаксисом ES
+        "skipLibCheck": true,  // Пропуск проверок библиотек для ускорения компиляции
+        "strict": true,  // Включение строгой проверки типов
+        "jsx": "react-jsx", // Для проектов с React
+        "allowImportingTsExtensions": true
+    },
+    "include": [
+        "src/**/*",  // Включение всех файлов проекта для компиляции
+        "tests/**/*"  // Включение файлов тестов
+    ]
+}

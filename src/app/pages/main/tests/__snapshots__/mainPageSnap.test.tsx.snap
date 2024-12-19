@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mainpage mathes snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-blHHSb cuPcaF"
+  >
+    <div
+      class="sc-gtLWhw eWNOFE"
+    >
+      <div>
+        AddTask
+      </div>
+      <div>
+        TaskLists
+      </div>
+      <div>
+        SwitchTasksCategory
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
