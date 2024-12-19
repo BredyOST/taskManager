@@ -24,7 +24,7 @@ exports[`SwitchTasksCategory matches snapshot 1`] = `
       MyTab
     </div>
     <button
-      class="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary sc-ivxoEo cfnPgc css-1emzoey-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+      class="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary sc-ivxoEo JjZhe css-1emzoey-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
       id=":r0:"
       tabindex="0"
       type="button"

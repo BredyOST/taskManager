@@ -1,0 +1,4 @@
+import { ToggleButtonGroup } from '@mui/material';
+export declare const SwitchTasksCategoryWrap: import("styled-components/dist/types").IStyledComponentBase<"web", import("styled-components").FastOmit<import("@mui/material").ToggleButtonGroupProps, never>> & string & Omit<typeof ToggleButtonGroup, keyof import("react").Component<any, {}, any>>;
+export declare const SwitchTasksCategoryInfo: import("styled-components/dist/types").IStyledComponentBase<"web", import("styled-components").FastOmit<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, never>> & string;
+export declare const SwitchTasksCategoryDiv: import("styled-components/dist/types").IStyledComponentBase<"web", import("styled-components").FastOmit<import("react").DetailedHTMLProps<import("react").HTMLAttributes<HTMLDivElement>, HTMLDivElement>, never>> & string;

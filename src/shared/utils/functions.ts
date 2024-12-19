@@ -5,12 +5,13 @@ import {addTask} from "../../app/axios/taskApi/taskApi.ts";
 
 export const addNewTask =
     async (
-        e: React.KeyboardEvent<HTMLInputElement | React.MouseEvent<HTMLButtonElement>>,
+        e: React.KeyboardEvent<HTMLInputElement> | React.MouseEvent<HTMLButtonElement>,
         valueInp:string,
         refetch: () => Promise<void>,
         setValueInp: (arg:string) => void
     ) => {
         try {
+            console.log(e)
                 const newTask: Pick<TasksType, 'description' | 'completed'> = { description: valueInp.trim(), completed: false };
                 const response = await addTask(newTask);
                 if (response?.id) {

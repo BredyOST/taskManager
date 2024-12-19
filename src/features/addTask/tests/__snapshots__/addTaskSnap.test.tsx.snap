@@ -39,6 +39,18 @@ exports[`addTasks match snapShoot 1`] = `
         </div>
       </div>
     </div>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiLoadingButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary sc-kLhKbu iQyTpg css-1emzoey-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root"
+      id=":r2:"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiLoadingButton-label css-27yv9x-MuiLoadingButton-label"
+      >
+        add
+      </span>
+    </button>
   </div>
 </DocumentFragment>
 `;

@@ -19,10 +19,9 @@ describe('addTasks', () => {
     })
 
     test('handles task input and submit', () => {
-        const {getByPlaceholderText, getByRole} = render(<AddTask openList={true} showListsTasks={() => {}}/>)
+        const {getByPlaceholderText} = render(<AddTask openList={true} showListsTasks={() => {}}/>)
 
         const input = getByPlaceholderText('ENTER TASK') as HTMLInputElement;
-        const button = getByRole('button')
 
         // Имитация ввода текста в поле
         fireEvent.change(input, { target: { value: "new task" }})

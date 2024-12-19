@@ -1,50 +1,20 @@
-# React + TypeScript + Vite
+Представлено тестовое задание ToDo list.
+Это простое приложение для управления задачами, которое позволяет добавлять, удалять и сортировать задачи по статусам (например, "Все задачи", "Выполненные", "Активные"). В качестве базы данных используется json.db, а для API-запросов применяется Axios.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Стек технологий:
+Frontend: React, TypeScript, Vite, styled-components
+База данных: json.db
+Утилиты: Axios для API запросов
 
-Currently, two official plugins are available:
+Установка
+Клонируйте репозиторий:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+git clone https://github.com/ваш-репозиторий/todo-list.git
+Перейдите в директорию проекта:
 
-## Expanding the ESLint configuration
+cd todo-list
+Установите зависимости:
+npm i
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-    languageOptions: {
-        // other options...
-        parserOptions: {
-            project: ['./tsconfig.node.json', './tsconfig.app.json'],
-            tsconfigRootDir: import.meta.dirname,
-        },
-    },
-});
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react';
-
-export default tseslint.config({
-    // Set the react version
-    settings: { react: { version: '18.3' } },
-    plugins: {
-        // Add the react plugin
-        react,
-    },
-    rules: {
-        // other rules...
-        // Enable its recommended rules
-        ...react.configs.recommended.rules,
-        ...react.configs['jsx-runtime'].rules,
-    },
-});
-```
+Запускаем проект
+npm run "npm i && npm run start"
